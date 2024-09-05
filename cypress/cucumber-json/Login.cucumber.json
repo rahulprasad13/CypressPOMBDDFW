@@ -1,0 +1,73 @@
+[
+  {
+    "description": "    Throuhg this feature user is able to login in to Orange HRM application",
+    "keyword": "Feature",
+    "name": "Orange HRM Login feature",
+    "line": 1,
+    "id": "orange-hrm-login-feature",
+    "tags": [],
+    "uri": "Login.feature",
+    "elements": [
+      {
+        "id": "orange-hrm-login-feature;user-should-be-able-to-login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "user should be able to login with valid credentials",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Visit Orange HRM Website",
+            "result": {
+              "status": "passed",
+              "duration": 2669000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User provide username",
+            "result": {
+              "status": "passed",
+              "duration": 507000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "User provide password",
+            "result": {
+              "status": "passed",
+              "duration": 250000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Click on Login button to log in into the Orange HRM Website",
+            "result": {
+              "status": "passed",
+              "duration": 1162000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should be redirected to the dashboard",
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
