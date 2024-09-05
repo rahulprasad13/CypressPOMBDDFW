@@ -8,10 +8,14 @@ This project uses Cypress to write automated tests for web applications. By inte
 
 # Features
 
-- **Behavior-Driven Development (BDD):** Write tests using Gherkin syntax for clear and descriptive test scenarios.
-- **Page Object Model (POM):** Organize page interactions and elements into page objects to promote reusability and maintainability.
-- **Cypress Integration:** Utilize Cypress for fast, reliable end-to-end testing with a rich set of features and a modern testing framework.
+- **Behavior-Driven Development (BDD):** Written tests using Gherkin syntax for clear and descriptive test scenarios.
+- **Page Object Model (POM):** Organized page interactions and elements into page objects to promote reusability and maintainability.
+- **Cypress Integration:** Utilized Cypress for fast, reliable end-to-end testing with a rich set of features and a modern testing framework.
 
 ## Installation
 To get started with this project, clone the repository and install the necessary dependencies.
+- Install Node.js
+- Install cypress "npm install cypress cypress@9.7.0 -dev -save"
+- Install ccucumber preprocessor "npm install --save-dev cypress-cucumber-preprocessor"
+- Install mutiple cucumber html reported "npm install mutiple-cucumber-html-reporter --save -dev"
 
